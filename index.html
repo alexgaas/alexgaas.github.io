@@ -13,6 +13,15 @@ body,td,th {
   font-family: Verdana, Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 33px);
+}
 .style27 {
   font-size: 11px;
   font-weight: bold;
@@ -135,12 +144,12 @@ body {
                 <li>english glass eyes</li>
                 <li>music box playing Mozart Lullaby "Sleep, my little prince"</li>
               </ul>
-              <audio controls>
+              <audio controls preload="auto" style="width:100%;">
               <source src="./index_files/music.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
               </audio>
             </p>
-            <p align="center">This adorable, cuddly bear Amadeus quickly becomes a beloved friend for everyone. It plays the soothing melody of Mozart’s Lullaby, creating a calm and peaceful atmosphere. 100% handmade with love and care from Montana, US.</p>
+            <p align="center">This adorable, cuddly bear Amadeus quickly becomes a beloved friend for everyone. It plays the soothing melody of Mozart Lullaby, creating a calm and peaceful atmosphere. 100% handmade with love and care from Montana, US.</p>
             <p align="center">$650 + shipping (please see rate examples below)</p>
             <p align="center"><span style="margin-bottom: 0;">
               <div align="center">
