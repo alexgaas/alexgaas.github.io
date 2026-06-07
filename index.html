@@ -263,19 +263,22 @@
         }
 
         .buy-now-btn {
-            background: #333;
-            color: white;
+            background: #FFD140;
+            color: #000;
             border: none;
             padding: 15px 50px;
             font-size: 1rem;
             text-transform: uppercase;
             letter-spacing: 2px;
+            font-weight: bold;
+            border-radius: 25px;
             cursor: pointer;
-            transition: background 0.3s;
+            transition: background 0.3s, transform 0.2s;
         }
 
         .buy-now-btn:hover {
-            background: var(--accent-color);
+            background: #f4c122;
+            transform: translateY(-1px);
         }
 
         /* Divider */
@@ -334,6 +337,7 @@
             display: flex;
             justify-content: center;
             gap: 40px;
+            flex-wrap: wrap; /* Added for responsiveness */
         }
 
         footer .icons img {
@@ -348,6 +352,9 @@
         }
 
         @media (max-width: 1024px) {
+            .container {
+                padding: 0 20px;
+            }
             .product-block {
                 grid-template-columns: 1fr;
                 gap: 50px;
@@ -361,6 +368,34 @@
             .policy-grid {
                 grid-template-columns: 1fr;
                 gap: 50px;
+            }
+            footer .icons {
+                gap: 20px;
+            }
+            footer .icons img {
+                height: 70px; /* Smaller icons on mobile */
+            }
+        }
+
+        @media (max-width: 768px) {
+            header .logo {
+                font-size: 2rem;
+            }
+            header nav a {
+                margin: 0 10px;
+                font-size: 0.75rem;
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            .about h2 {
+                font-size: 2rem;
+            }
+            .product-info h3 {
+                font-size: 2rem;
+            }
+            .policies h2 {
+                font-size: 2.2rem;
             }
         }
     </style>
@@ -379,12 +414,10 @@
         </div>
     </header>
 
-    <!--
     <section class="hero">
-        <div class="hero-content">
-        </div>
+        <!-- Hero content removed per user request --> 
+
     </section>
-    -->
 
     <section id="about" class="about">
         <div class="container">
@@ -519,25 +552,24 @@
         </div>
     </footer>
 
-    <script> 
-        document.querySelectorAll(".product-block").forEach(block => { 
-            const mainImg = block.querySelector(".main-image"); 
-            const thumbnails = block.querySelectorAll(".thumbnail-row img"); 
-             
-            thumbnails.forEach(thumb => { 
-                thumb.addEventListener("click", () => { 
-                    const oldMainSrc = mainImg.src; 
-                    const oldMainAlt = mainImg.alt; 
-                     
-                    mainImg.src = thumb.src; 
-                    mainImg.alt = thumb.alt; 
-                     
-                    thumb.src = oldMainSrc; 
-                    thumb.alt = oldMainAlt; 
-                }); 
-            }); 
-        }); 
-    </script> 
-
+    <script>
+        document.querySelectorAll(".product-block").forEach(block => {
+            const mainImg = block.querySelector(".main-image");
+            const thumbnails = block.querySelectorAll(".thumbnail-row img");
+            
+            thumbnails.forEach(thumb => {
+                thumb.addEventListener("click", () => {
+                    const oldMainSrc = mainImg.src;
+                    const oldMainAlt = mainImg.alt;
+                    
+                    mainImg.src = thumb.src;
+                    mainImg.alt = thumb.alt;
+                    
+                    thumb.src = oldMainSrc;
+                    thumb.alt = oldMainAlt;
+                });
+            });
+        });
+    </script>
 </body>
 </html>
