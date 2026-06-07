@@ -1,742 +1,543 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!-- saved from url=(0062)https://cyberdendesigns.com/Online/Sampleofsalespagelayout.htm -->
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScrappyGoose - Artist One-of-a-kind Collectible Bears</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://www.paypal.com/sdk/js?client-id=BAA4j2z9CXVOX8Scc9f-Qa4rN_6Aeb77QGambI7bOX8CU4Q8nm064c5rcW_Rn-_gjdH_lA1xG-SykmKK_k&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
+    <style>
+        :root {
+            --bg-color: #FAFAFA;
+            --text-color: #333333;
+            --accent-color: #556B2F; /* Olive Green */
+            --light-accent: #E9EDDE;
+            --serif-font: 'Playfair Display', serif;
+            --sans-font: 'Lato', sans-serif;
+            --max-width: 1200px;
+        }
 
-<title>Scrappygoose Artist page for Bright Star Online Show</title>
-  
-<script 
-  src="https://www.paypal.com/sdk/js?client-id=BAA4j2z9CXVOX8Scc9f-Qa4rN_6Aeb77QGambI7bOX8CU4Q8nm064c5rcW_Rn-_gjdH_lA1xG-SykmKK_k&components=hosted-buttons&enable-funding=venmo&currency=USD">
-</script>
-<style type="text/css">
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
 
-body,td,th {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-.style27 {
-  font-size: 11px;
-  font-weight: bold;
-}
-.style28 {
-  font-size: 16px;
-  font-weight: bold;
-}
-body {
-  background-image: none;
-}
-.style29 {
-  font-size: 32px;
-  font-weight: bold;
-}
-.style30 {font-size: 15px}
-.style31 {
-  font-size: 26px;
-  font-weight: bold;
-}
-.style33 {font-size: 16px; font-weight: bold; color: #003399; }
-.style36 {
-  color: #0000FF;
-  font-weight: bold;
-}
-.style37 {color: #0000FF}
-.style24 {font-size: 12px}
-.style38 {color: #000000; font-family: verdana; font-size: 11px; }
-.style40 {font-size: 12px; font-weight: bold; }
-.style41 {
-  color: #FF0000;
-  font-weight: bold;
-}
-.style120 {
-  font-size: 18px;
-  font-weight: bold;
-  color: #FF0000;
-}
-.style121 {font-size: 16px; font-weight: bold; color: #FF0000; }
-.style122 {font-size: 26px}
-.style215 {font-size: 24px; }
-.style220 {color: #000000}
-.style253 {font-size: 16px; }
-.style313 {font-size: 26px; font-weight: bold; color: #0000FF; }
-.style314 {font-size: 26px; color: #0000FF; }
-.style315 {font-size: 18px; color: #000000; }
-.style316 {font-size: 18px; font-weight: bold; }
-.style317 {color: #FF0000}
-.style318 {font-size: 26px; color: #FF0000; }
-.style320 {
-  font-size: 29px;
-  font-weight: bold;
-  color: #0000FF;
-}
-.style323 {
-  font-size: 21px;
-  font-weight: bold;
-  color: #000000;
-}
-.style103 {color: #000099}
-.style324 {color: #000000; font-size: 15px; }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: var(--sans-font);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-</style></head>
+        h1, h2, h3, h4 {
+            font-family: var(--serif-font);
+            font-weight: 400;
+        }
 
+        .container {
+            max-width: var(--max-width);
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+
+        /* Header */
+        header {
+            padding: 40px 0;
+            text-align: center;
+            background: white;
+            border-bottom: 1px solid #eee;
+        }
+
+        header .logo {
+            font-family: var(--serif-font);
+            font-size: 2.8rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        header nav {
+            margin-top: 20px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: var(--text-color);
+            margin: 0 20px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: color 0.3s;
+        }
+
+        header nav a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Hero */
+        .hero {
+            position: relative;
+            height: 85vh;
+            min-height: 600px;
+            background-image: url('./index_files/banner-winterstars2026.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.15);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 4.5rem;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+        /* About */
+        .about {
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .about img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 40px;
+            border: 8px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        .about h2 {
+            font-size: 2.8rem;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            max-width: 850px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        /* Product Section */
+        .product-grid {
+            padding: 60px 0;
+        }
+
+        .product-block {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 80px;
+            margin-bottom: 120px;
+            align-items: start;
+        }
+
+        .product-block:nth-child(even) {
+            direction: rtl;
+        }
+
+        .product-block:nth-child(even) .product-info {
+            direction: ltr;
+        }
+
+        .product-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .main-image {
+            width: 100%;
+            aspect-ratio: 3/4;
+            object-fit: cover;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            transition: transform 0.4s ease;
+        }
+
+        .thumbnail-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .thumbnail-row img {
+            width: 100%;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            transition: opacity 0.3s;
+        }
+
+        .thumbnail-row img:hover {
+            opacity: 0.8;
+        }
+
+        .product-info {
+            padding-top: 20px;
+        }
+
+        .product-info h3 {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+            color: var(--text-color);
+        }
+
+        .product-info .subtitle {
+            font-family: var(--serif-font);
+            font-size: 1.3rem;
+            font-style: italic;
+            color: var(--accent-color);
+            margin-bottom: 30px;
+            display: block;
+            letter-spacing: 1px;
+        }
+
+        .product-info .description {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .product-info .price {
+            font-size: 1.8rem;
+            color: var(--text-color);
+            margin: 30px 0;
+            display: block;
+            font-weight: 300;
+            font-family: var(--serif-font);
+        }
+
+        .product-info ul {
+            list-style: none;
+            margin-bottom: 40px;
+        }
+
+        .product-info ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 12px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .product-info ul li::before {
+            content: '—';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+
+        .paypal-container {
+            margin-top: 40px;
+        }
+
+        .buy-now-btn {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 15px 50px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .buy-now-btn:hover {
+            background: var(--accent-color);
+        }
+
+        /* Divider */
+        .divider {
+            height: 100px;
+            background-image: url('index_files/red-swirls-fancy_000.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 60px 0;
+            opacity: 0.3;
+        }
+
+        /* Policies */
+        .policies {
+            background: white;
+            padding: 120px 0;
+            border-top: 1px solid #eee;
+        }
+
+        .policies h2 {
+            text-align: center;
+            margin-bottom: 70px;
+            font-size: 3rem;
+        }
+
+        .policy-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+        }
+
+        .policy-item h4 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--text-color);
+        }
+
+        .policy-item p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            padding: 80px 0;
+            text-align: center;
+            background: #f9f9f9;
+            font-size: 0.95rem;
+            color: #999;
+            border-top: 1px solid #eee;
+        }
+
+        footer .icons {
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        footer .icons img {
+            height: 100px;
+            opacity: 0.5;
+            filter: grayscale(100%);
+            transition: opacity 0.3s;
+        }
+
+        footer .icons img:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width: 1024px) {
+            .product-block {
+                grid-template-columns: 1fr;
+                gap: 50px;
+            }
+            .product-block:nth-child(even) {
+                direction: ltr;
+            }
+            .hero h1 {
+                font-size: 3.5rem;
+            }
+            .policy-grid {
+                grid-template-columns: 1fr;
+                gap: 50px;
+            }
+        }
+    </style>
+</head>
 <body>
-<div align="center">
-  <table width="750" border="1" bgcolor="#FFFFFF">
-    <tbody><tr valign="top">
-      <td colspan="2">
-        <p align="center" style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
-        <p align="center" style="margin-top: 0; margin-bottom: 0;"><a href="https://www.bright-star-promotions.com/OnlineShow/2026/WinterStars-TeddyBearShow.htm"><img src="./index_files/banner-winterstars2026.jpg" width="800" height="384"></a></p>
-        <p align="center" style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
-      </td>
-    </tr>
-    <tr valign="top">
-      <td colspan="2"><div align="center">
-        <p style="margin-top: 0; margin-bottom: 0"><span class="style29"><span class="style24" style="margin-top: 0; margin-bottom: 0;"><span class="style121" style="margin-top: 0; margin-bottom: 0;"></span></span>Lisa Gaas, ScrappyGoose</span></p>
-      </div></td>
-    </tr>
-    <tr valign="top">
-      <td colspan="2" valign="middle"><p align="center" class="style30" style="margin-top: 0; margin-bottom: 0"><span class="style30" style="margin-top: 0; margin-bottom: 0"><img src="./index_files/lisa_gaas.jpeg" width="25%" height="25%" hspace="4" align="left"></span></p>
-        <p align="center" class="style30" style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
 
-        <p align="center" class="style28" style="margin-top: 0; margin-bottom: 0;">Hi there! I'm Lisa Gaas, my creative jorney started many years ago from making organic baby clothing. From fabric scraps I made my first toy named Mr. Scrappy Goose. He was so cute and loved by my kids that reminded me of my lovely bear from my childhood and inspired me to create a vintage teddy bear. After passing many courses and master classes I started to create teddies using not only classic well-known patterns but also my own unique. I use the best high quality materials, natural soft stuffing and weight what makes a toy like realistic alive. Every creature is hand made with love in a highly professional manner!</p>
-      
-      <p align="center" class="style30" style="margin-top: 0; margin-bottom: 0;">&nbsp;</p></td>
-    </tr>
+    <header>
+        <div class="container">
+            <div class="logo">ScrappyGoose</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#shop">Shop</a>
+                <a href="#policies">Policies</a>
+            </nav>
+        </div>
+    </header>
 
-    <tr valign="top">
-      <td colspan="2"><table width="826" border="0" bgcolor="#999999">
-        <tbody>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Heirloom Soulmates</h1>
+            <p>Artist One-of-a-kind Collectible Bears by Lisa Gaas</p>
+        </div>
+    </section>
 
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
+    <section id="about" class="about">
+        <div class="container">
+            <img src="./index_files/lisa_gaas.jpeg" alt="Lisa Gaas">
+            <h2>Handmade with Love</h2>
+            <p>Hi there! I'm Lisa Gaas, my creative journey started many years ago from making organic baby clothing. From fabric scraps I made my first toy named Mr. Scrappy Goose. He was so cute and loved by my kids that reminded me of my lovely bear from my childhood and inspired me to create a vintage teddy bear. Every creature is hand made with love in a highly professional manner!</p>
+        </div>
+    </section>
 
-        <tr valign="top">
-          <td colspan="2">
-            <div align="center">
-              <table width="544" border="1">
-                <tbody><tr valign="top">
-                  <td width="266"><img src="./index_files/v-bear-1.jpeg" width="266" height="354"></td>
-                  <td width="266"><img src="./index_files/v-bear-2.jpeg" width="266" height="354"></td>
-                </tr>
-                <tr valign="top">
-                  <td><img src="./index_files/v-bear-4.jpeg" width="266" height="354"></td>
-                  <td><div align="center"><img src="./index_files/v-bear-3.jpeg" width="266" height="354"></div></td>
-                </tr>
-              </tbody></table>
-          </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Valentine stands 10 inch (26 cm) hand-sewn. Weight is about 14 oz (0.39 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from high quality Soviet Union vintage viscose</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fresh Tamarack pine shavings, aspen wood wool, metal pellets</li>
-                <li>embroidered nose</li>
-                <li>german glass eyes</li>
-                <li>has a heart made from german mohair and filled with natural sheep wool</li>
-                <li>features small zipped pocket on the back with organic cotton lining</li>
-              </ul>
-            </p>
+    <div class="divider"></div>
 
-            <p align="center">This handsome Valentine with his big warmth wooly heart and small secret pocket on the back where you can place a treasure would be beautiful gift to your love ones in the Valentine Day or a great addition to your incredeable teddy bear collection! 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$275 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <div align="center">
-                <style>.pp-AR4EG3KH54R3G{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/AR4EG3KH54R3G" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-AR4EG3KH54R3G" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-            </span></p>
-          </td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="2">
-            <div align="center">
-              <table width="544" border="1">
-                <tbody><tr valign="top">
-                  <td width="266"><img src="./index_files/music-bear-1.jpeg" width="266" height="354"></td>
-                  <td width="266"><img src="./index_files/music-bear-3.jpeg" width="266" height="354"></td>
-                </tr>
-                <tr valign="top">
-                  <td><img src="./index_files/music-bear-2.jpeg" width="266" height="354"></td>
-                  <td><div align="center"><img src="./index_files/music-bear-4.jpeg" width="266" height="354"></div></td>
-                </tr>
-              </tbody></table>
-          </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Amadeus with music box inside stands 15 inch (38 cm) hand-sewn. Weight is about 2 lb 11 oz (1.23 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from gorgeous german dense mohair and german woolvelt for paws and ears</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fresh Tamarack pine shavings, aspen wood wool, glass pellets, buckwheat hulls and mineral granulate</li>
-                <li>embroidered nose</li>
-                <li>english glass eyes</li>
-                <li>music box playing Mozart Lullaby "Sleep, my little prince"</li>
-              </ul>
-            </p>
-
-            <audio controls preload="auto" style="height:80px;">
-              <source src="./index_files/music.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-            </audio>
-
-            <p align="center">This adorable, cuddly bear Amadeus quickly becomes a beloved friend for everyone. It plays the soothing melody of Mozart Lullaby, creating a calm and peaceful atmosphere. 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$650 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <div align="center">
-                <style>.pp-YYQF59EMDTCT2{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/YYQF59EMDTCT2" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-YYQF59EMDTCT2" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-            </span></p>
-          </td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/golden-bear-4.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/golden-bear-3.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/golden-bear-1.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/golden-bear-2.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Leo stands 15 inch (38 cm) tall. His weight is about 2 lb (0.93 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from gorgeous german dense mohair</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fresh Tamarack pine shavings, aspen wood wool, glass pellets, buckwheat hulls and mineral granulate</li>
-                <li>embroidered nose</li>
-                <li>english glass eyes</li>
-                <li>has original antique button for decoration</li>
-                <li>traditional millboard growler inside</li>
-              </ul>
-            </p>
-            <p align="center">Leo is a sunny, warm hearted bear who is going to be amazing addition to your unique bear collection! He is 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$550 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <div align="center">
-                <style>.pp-HKRWWAMUJXSZG{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/HKRWWAMUJXSZG" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-HKRWWAMUJXSZG" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-            </span></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/sunny_bear_2.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/sunny_bear_3.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/sunny_bear_1.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/sunny_bear_4.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind Steiff-like bear Richard stands 16 inch (41 cm) tall. His weight is about 2 lb 8 oz (1.12 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from high quality german Steiff-Schulte mohair</li>
-                <li>traditionally 5-way jointed</li>
-                <li>has unique soft stuffing with fine pine wood shaving, glass and metal granulate, eco linen fiber</li>
-                <li>embroidered nose</li>
-                <li>original antique wood shoe buttons for eyes</li>
-                <li>has original antique key for decoration</li>
-                <li>features super-soft stuffing</li>
-                <li>made to look antique</li>
-              </ul>
-            </p>
-            <p align="center">Richard is shy, fluffy bear with a big heart! He is 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$450 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <div align="center">
-                <style>.pp-SZQ95D9X9GH4G{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/SZQ95D9X9GH4G" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-SZQ95D9X9GH4G" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-            </span></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/bernie-bear-1.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/bernie-bear-3.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/bernie-bear-4.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/bernie-bear-2.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Bernie stands 15.5 inch (40 cm) tall. His weight is about 1 lb 12 oz (0.78 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from gorgeous german dense mohair</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fresh Tamarack pine shavings, aspen wood wool, glass pellets, buckwheat hulls and mineral granulate</li>
-                <li>embroidered nose</li>
-                <li>english glass eyes</li>
-                <li>has hand dyed cotton ribbon</li>
-              </ul>
-            </p>
-            <p align="center">Bernie is sweet classic teddy bear to be your best friend for a live! He is 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$400 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <div align="center">
-                <style>.pp-RUBL9CDE96AFW{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/RUBL9CDE96AFW" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-RUBL9CDE96AFW" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-            </span></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/mel_bear_1.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/mel_bear_3.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/mel_bear_4.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/mel_bear_2.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Amalia stands 12.5 inch (31 cm) tall. Her weight is about 1 lb and 4 oz (0.55 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from high quality german mohair</li>
-                <li>traditionally 5-way jointed</li>
-                <li>has soft stuffing with fine pine wood shaving, mineral granulate and wood wool</li>
-                <li>embroidered nose</li>
-                <li>english glass eyes</li>
-              </ul>
-            </p>
-            <p align="center">Amalia is a good-natured "royal" lady bear! She is 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$300 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              
-              <!--
-              <div align="center">
-              <style>.pp-4ZRMRWBYTMPPY{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-              <form action="https://www.paypal.com/ncp/payment/4ZRMRWBYTMPPY" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                <input class="pp-4ZRMRWBYTMPPY" type="submit" value="Buy Now" />
-                <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-              </form>
+    <section id="shop" class="product-grid">
+        <div class="container">
+            
+            <!-- Valentine -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/v-bear-1.jpeg" alt="Valentine Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/v-bear-2.jpeg" alt="Valentine 2">
+                        <img src="./index_files/v-bear-3.jpeg" alt="Valentine 3">
+                        <img src="./index_files/v-bear-4.jpeg" alt="Valentine 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Valentine</h3>
+                    <span class="subtitle">Goddess of the Crimson Heart</span>
+                    <p class="description">One-of-a-kind bear Valentine stands 10 inch (26 cm) hand-sewn. Weight is about 14 oz (0.39 kg). This handsome Valentine with his big warmth wooly heart and small secret pocket on the back where you can place a treasure would be beautiful gift to your love ones!</p>
+                    <span class="price">$275 + shipping</span>
+                    <ul>
+                        <li>High quality Soviet Union vintage viscose</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Fresh Tamarack pine shavings, aspen wood wool, metal pellets</li>
+                        <li>German glass eyes</li>
+                        <li>Zipped pocket on the back with organic cotton lining</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <form action="https://www.paypal.com/ncp/payment/AR4EG3KH54R3G" method="post" target="_blank">
+                            <input type="submit" value="Buy Now" class="buy-now-btn">
+                        </form>
+                    </div>
+                </div>
             </div>
-              -->
-              <div align="center">
-                <img src="./index_files/thank-you.jpg"/>
-              </div>
-            </span></p></td>
-        </tr>
 
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/winnie-bear-4.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/winnie-bear-3.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/winnie-bear-2.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/winnie-bear-1.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Winnie-the-Pooh stands 10.5 inch (27 cm) tall. His weight is about 15 oz (0.425 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from gorgeous german dense mohair</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with corriedale wool, fresh Tamarack pine shavings and glass pellets</li>
-                <li>embroidered nose</li>
-                <li>english glass eyes</li>
-                <li>organic cotton shirt</li>
-                <li>linen fabric honey jar filled with wood wool</li>
-              </ul>
-            </p>
-            <p align="center">"We'll be Friends Forever, won't we, Pooh?' asked Piglet. Even longer,' Pooh answered.". 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$350 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <!--
-              <div align="center">
-                <style>.pp-A7BRNSCLR4WGW{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/A7BRNSCLR4WGW" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-A7BRNSCLR4WGW" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-              -->
-              <div align="center">
-                <img src="./index_files/thank-you.jpg"/>
-              </div>
-            </span></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/steve_bear_1.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/steve_bear_2.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/steve_bear_4.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/steve_bear_3.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Steve stands 9 inch (23 cm) tall. His weight is about 1 lb 10 oz (0.48 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from gorgeous german dense mohair and leather for paws</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fine pine wood shaving, wood wool and steel pellets</li>
-                <li>handcrafted clay nose</li>
-                <li>english glass eyes</li>
-              </ul>
-            </p>
-            <p align="center">Steve will definitely become your soul buddy and cheer you up any time! He is 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$350 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <div align="center">
-              <style>.pp-HMRGDUWDTTLPQ{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-              <form action="https://www.paypal.com/ncp/payment/HMRGDUWDTTLPQ" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                <input class="pp-HMRGDUWDTTLPQ" type="submit" value="Buy Now" />
-                <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-              </form>
+            <!-- Bernie -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/bernie-bear-1.jpeg" alt="Bernie Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/bernie-bear-3.jpeg" alt="Bernie 2">
+                        <img src="./index_files/bernie-bear-4.jpeg" alt="Bernie 3">
+                        <img src="./index_files/bernie-bear-2.jpeg" alt="Bernie 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Bernie</h3>
+                    <span class="subtitle">A Lifetime Best Friend</span>
+                    <p class="description">One-of-a-kind bear Bernie stands 15.5 inch (40 cm) tall. His weight is about 1 lb 12 oz (0.78 kg). Bernie is sweet classic teddy bear to be your best friend for a live!</p>
+                    <span class="price">$400 + shipping</span>
+                    <ul>
+                        <li>Gorgeous german dense mohair</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Tamarack pine shavings, glass pellets, buckwheat hulls</li>
+                        <li>English glass eyes</li>
+                        <li>Hand dyed cotton ribbon</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <form action="https://www.paypal.com/ncp/payment/RUBL9CDE96AFW" method="post" target="_blank">
+                            <input type="submit" value="Buy Now" class="buy-now-btn">
+                        </form>
+                    </div>
+                </div>
             </div>
-            </span></p></td>
-        </tr>
 
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
+            <!-- Winnie -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/winnie-bear-4.jpeg" alt="Winnie Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/winnie-bear-3.jpeg" alt="Winnie 2">
+                        <img src="./index_files/winnie-bear-2.jpeg" alt="Winnie 3">
+                        <img src="./index_files/winnie-bear-1.jpeg" alt="Winnie 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Winnie-the-Pooh</h3>
+                    <span class="subtitle">Friends Forever</span>
+                    <p class="description">One-of-a-kind bear Winnie-the-Pooh stands 10.5 inch (27 cm) tall. His weight is about 15 oz (0.425 kg). "We'll be Friends Forever, won't we, Pooh?' asked Piglet. Even longer,' Pooh answered."</p>
+                    <span class="price">$350 + shipping</span>
+                    <ul>
+                        <li>Gorgeous german dense mohair</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Corriedale wool, pine shavings and glass pellets</li>
+                        <li>English glass eyes</li>
+                        <li>Organic cotton shirt and linen fabric honey jar</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <img src="./index_files/thank-you.jpg" alt="Sold Out" style="width: 200px;">
+                    </div>
+                </div>
+            </div>
 
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/green-bear-4.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/green-bear-3.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/green-bear-1.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/green-bear-2.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Yuki stands 11 inch (28 cm) tall. His weight is about 14.5 oz (0.41 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from gorgeous german dense mohair and german woolvelt for paws and ears</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fresh Tamarack pine shavings, aspen wood wool, glass pellets, buckwheat hulls and mineral granulate</li>
-                <li>embroidered nose</li>
-                <li>english glass eyes</li>
-                <li>has original antique key for decoration</li>
-              </ul>
-            </p>
-            <p align="center">Yuki with name meaning good fortune / happiness is very happy and joyful bear to be a talisman in your wonderful collection! 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$300 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <div align="center">
-                <style>.pp-JRSURSMMAZHJY{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/JRSURSMMAZHJY" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-JRSURSMMAZHJY" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-            </span></p></td>
-        </tr>
+        </div>
+    </section>
 
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
+    <section id="policies" class="policies">
+        <div class="container">
+            <h2>Shipping & Policies</h2>
+            <div class="policy-grid">
+                <div class="policy-item">
+                    <h4>Shipping Information</h4>
+                    <p>Your purchase will be sent two days after funds are received by USPS inside of US. Tracking is provided where available. We take pride in our packaging to ensure your new friend arrives safely.</p>
+                    <p style="margin-top: 20px;"><strong>Rates:</strong> US (Ground Advantage) - $15-$35 depending on the weight and size.</p>
+                </div>
+                <div class="policy-item">
+                    <h4>Return & Refund</h4>
+                    <p>If you are not completely happy with my creations, please notify me within 24 hours of receiving the bear. Send the bear in its original condition and packaging back for a refund.</p>
+                    <p style="margin-top: 20px;">Contact: <a href="mailto:lisagaas9@gmail.com" style="color: var(--accent-color); text-decoration: none; font-weight: bold;">lisagaas9@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/dunkan-bear-4.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/dunkan-bear-3.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/dunkan-bear-2.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/dunkan-bear-1.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Duncan stands 7 inch (18 cm) tall. His weight is about 9.5 oz (0.265 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from german alpaca and gorgeous german dense mohair</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fresh Tamarack pine shavings, aspen wood wool and metal pellets</li>
-                <li>embroidered nose</li>
-                <li>german glass eyes</li>
-              </ul>
-            </p>
-            <p align="center">This charming and looking solid Duncan will be only yours exclusive friend! 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$175 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <!--
-              <div align="center">
-                <style>.pp-Z3SRSN4A89B3U{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/Z3SRSN4A89B3U" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-Z3SRSN4A89B3U" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-              -->
-              <div align="center">
-                <img src="./index_files/thank-you.jpg"/>
-              </div>
-            </span></p></td>
-        </tr>
+    <footer>
+        <div class="container">
+            <div class="icons">
+                <img src="./index_files/made-in-usa-a.jpg" alt="Made in USA">
+                <img src="./index_files/whitefishbears.webp" alt="Whitefish Bears">
+                <img src="./index_files/handmadesupport-sign270_005.png" alt="Handmade Support">
+            </div>
+            <p>&copy; 2021 - 2026 ScrappyGoose. Whitefish, Montana, USA. All rights reserved worldwide.</p>
+        </div>
+    </footer>
 
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
+    <script> 
+        document.querySelectorAll(".product-block").forEach(block => { 
+            const mainImg = block.querySelector(".main-image"); 
+            const thumbnails = block.querySelectorAll(".thumbnail-row img"); 
+             
+            thumbnails.forEach(thumb => { 
+                thumb.addEventListener("click", () => { 
+                    const oldMainSrc = mainImg.src; 
+                    const oldMainAlt = mainImg.alt; 
+                     
+                    mainImg.src = thumb.src; 
+                    mainImg.alt = thumb.alt; 
+                     
+                    thumb.src = oldMainSrc; 
+                    thumb.alt = oldMainAlt; 
+                }); 
+            }); 
+        }); 
+    </script> 
 
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/magnus-bear-1.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/magnus-bear-2.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/magnus-bear-3.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/magnus-bear-4.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Magnus stands 7 inch (18 cm) tall. His weight is about 9.6 oz (0.272 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from german viscosa and gorgeous german dense mohair</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fresh Tamarack pine shavings, aspen wood wool and metal pellets</li>
-                <li>embroidered nose</li>
-                <li>german glass eyes</li>
-              </ul>
-            </p>
-            <p align="center">Magnus is a small bear with a huge heart to be your soulmate and great addition to your incredible collection! 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$175 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <div align="center">
-                <style>.pp-Q6HCWJEY883M8{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/Q6HCWJEY883M8" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-Q6HCWJEY883M8" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-            </span></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="2"><div align="center">
-            <table width="544" border="1">
-              <tbody><tr valign="top">
-                <td width="266"><img src="./index_files/victor-bear-1.jpeg" width="266" height="354"></td>
-                <td width="266"><img src="./index_files/victor-bear-2.jpeg" width="266" height="354"></td>
-              </tr>
-              <tr valign="top">
-                <td><img src="./index_files/victor-bear-3.jpeg" width="266" height="354"></td>
-                <td><div align="center"><img src="./index_files/victor-bear-4.jpeg" width="266" height="354"></div></td>
-              </tr>
-            </tbody></table>
-            </div>            
-          <div align="center"></div></td>
-          <td valign="middle"><p align="center" style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-            <p align="center">One-of-a-kind bear Victor stands 7 inch (18 cm) tall. His weight is about 9.3 oz (0.26 kg).</p>
-            <p align="center">
-              <p align="left">Details:</span>
-              <ul>
-                <li>made from german viscosa and gorgeous german dense mohair</li>
-                <li>traditionally 5-way jointed</li>
-                <li>stuffed in combined density technique with fresh Tamarack pine shavings, aspen wood wool and metal pellets</li>
-                <li>embroidered nose</li>
-                <li>german glass eyes</li>
-              </ul>
-            </p>
-            <p align="center">Victor is a bright smile bear you want to cuddle every time you see! 100% handmade with love and care from Montana, US.</p>
-            <p align="center">$175 + shipping (please see rate examples below)</p>
-            <p align="center"><span style="margin-bottom: 0;">
-              <!--
-              <div align="center">
-                <style>.pp-66CH6LHF8PNRW{text-align:center;border:none;border-radius:1.5rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
-                <form action="https://www.paypal.com/ncp/payment/66CH6LHF8PNRW" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
-                  <input class="pp-66CH6LHF8PNRW" type="submit" value="Buy Now" />
-                  <img src=https://www.paypalobjects.com/images/Debit_Credit.svg alt="cards" />
-                  <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
-                </form>
-              </div>
-              -->
-              <div align="center">
-                <img src="./index_files/thank-you.jpg"/>
-              </div>
-            </span></p></td>
-        </tr>
-
-        <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="#CCCCCC"><p align="center" class="style122" style="margin-top: 0; margin-bottom: 0"><img width="100%" height="100%" src="index_files/red-swirls-fancy_000.png"></p></td>
-        </tr>
-
-      </tbody></table></td>
-    </tr>
-    <tr valign="top">
-      <td colspan="3" valign="top" bgcolor="#FFFFFF"><div align="center" class="style41">
-        <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-        <p style="margin-top: 0; margin-bottom: 0;"><a href="https://www.bright-star-promotions.com/OnlineShow/2026/WinterStars-TeddyBearShow.htm">
-          <img src="./index_files/online-show-skinny-banner_edited-1_003.jpg" width="400" height="90" border="0"></a></p>
-          <p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
-      </div></td>
-    </tr>
-    <tr valign="top">
-          <td colspan="3" valign="top" bgcolor="white"><div align="center"><span class="style320">Shipping and refund policies</span></div></td>
-        </tr>
-    <tr valign="top">
-      <td colspan="2"><div align="center">
-        <table width="100%" border="1" cellpadding="5">
-          <tbody><tr valign="top">
-            <td valign="middle"><img src="./index_files/bear-at-po-2-logo-190.jpg" width="100%" height="100%"></td>
-            <td colspan="4">
-              <p align="left" class="style2" style="margin-top: 0; margin-bottom: 0;"><span class="style36">Shipping: </span></p>
-              <p align="left" style="margin-top: 0;"><span class="style2" style="margin-top: 0; margin-bottom: 0;">Your purchase will be sent two days after funds are received by USPS inside of US. Shipping to locations outside of the US is not accepted right now due tarrifs situation. Tracking is provided where available.
-                <p align="left">Price examples:</span>
-                <ul>
-                  <li>US (Ground Advantage) - $15-$35 depends on the weight and size</li>
-                </ul>
-                * If you prefer Prioirty it will cost up $20-$30 depends on the weight and size.
-              </p>
-              <p align="left" class="style2" style="margin-top: 0; margin-bottom: 0;"><span class="style36">Refund: </span></p>
-              <p align="left" style="margin-top: 0;"><span class="style2" style="margin-top: 0; margin-bottom: 0;">If you are not completely happy with my creations, please notified me within 24 hours of receiving the bear. 
-                <br>
-                <br>Contact me by email: <a href="mailto:lisagaas9@gmail.com">lisagaas9@gmail.com</a>. 
-                <br>
-                <br>Please send the bear in its original condition and packaging back to me for a refund which does not include the return shipping fees (International). When I receive the package I'll credit your PayPal account.</p>
-            </tr>
-          <tr valign="top">
-              <td width="145"><p align="center" style="margin-top: 0; margin-bottom: 0"><a href="mailto:lisagaas9@gmail.com"><img src="./index_files/emailicon23-125.jpg" width="145" height="117" border="0"/></a></p>
-              </td>
-              <td width="145"><p align="center" style="margin-top: 0; margin-bottom: 0"><img src="./index_files/made-in-usa-a.jpg" width="145" height="141"/></p>
-              </td>
-              <td width="145"><p align="center" style="margin-top: 0; margin-bottom: 0"><img src="./index_files/whitefishbears.webp" width="145" height="141"/></p>
-              </td>
-              <td width="145"><p align="center" style="margin-top: 0; margin-bottom: 0"><img src="./index_files/handmadesupport-sign270_005.png" width="145" height="141"/></p>
-              </td>
-            </tr>
-        </tbody></table>              
-      </div></td>
-    </tr>
-  </tbody></table>
-  <br>
-  <p style="margin-top: 0; margin-bottom: 0;">
-  <a href="https://info.flagcounter.com/Z5j9"><img src="https://s01.flagcounter.com/count2/Z5j9/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-  </p>
-  <br>
-  <p style="margin-top: 0; margin-bottom: 0;">  Copyrighted&nbsp;&nbsp; 2021 - 2026 by ScrappyGoose<br>
-  Whitefish <span class="style24" style="margin-top: 0; margin-bottom: 0;"><span class="style38"><span class="style24" style="margin-top: 0; margin-bottom: 0;"><img src="http://www.bearsandbuds.com/images/tinystar.gif"></span></span></span> Montana, MT <span class="style24" style="margin-top: 0; margin-bottom: 0;"><span class="style38"><span class="style24" style="margin-top: 0; margin-bottom: 0;"><img src="http://www.bearsandbuds.com/images/tinystar.gif"></span></span></span> 59937 USA<br></p>
-  <br>
-  <p align="center" class="style253" style="margin-top: 0;">All rights reserved worldwide.</p>
-</div>
-</body></html>
+</body>
+</html>
