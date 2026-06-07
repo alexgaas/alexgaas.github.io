@@ -10,7 +10,7 @@
     <script src="https://www.paypal.com/sdk/js?client-id=BAA4j2z9CXVOX8Scc9f-Qa4rN_6Aeb77QGambI7bOX8CU4Q8nm064c5rcW_Rn-_gjdH_lA1xG-SykmKK_k&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
     <style>
         :root {
-            --bg-color: #FAFAFA;
+            --bg-color: #e9edde;
             --text-color: #333333;
             --accent-color: #556B2F; /* Olive Green */
             --light-accent: #E9EDDE;
@@ -44,11 +44,11 @@
             padding: 0 40px;
         }
 
-        /* Hero - Moved to top */
+        /* Hero */
         .hero {
             width: 100%;
             max-width: 900px;
-            margin: 0 auto 40px auto; /* Removed top margin */
+            margin: 0 auto 40px auto;
             display: block;
             line-height: 0;
         }
@@ -132,7 +132,7 @@
             display: grid;
             grid-template-columns: 1.2fr 1fr;
             gap: 80px;
-            margin-bottom: 120px;
+            margin-bottom: 120px; /* Restored spacing */
             align-items: start;
         }
 
@@ -255,6 +255,18 @@
             transform: translateY(-1px);
         }
 
+        /* Online Show Banner Section */
+        .online-show-banner {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .online-show-banner img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
         /* Divider */
         .divider {
             height: 100px;
@@ -361,6 +373,9 @@
             .policies h2 {
                 font-size: 2.2rem;
             }
+            .online-show-banner {
+                padding: 40px 20px;
+            }
         }
     </style>
 </head>
@@ -425,6 +440,36 @@
                 </div>
             </div>
 
+            <!-- Richard -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/v-bear-1.jpeg" alt="Richard Main" class="main-image"> <!-- Placeholder images -->
+                    <div class="thumbnail-row">
+                        <img src="./index_files/v-bear-2.jpeg" alt="Richard 2">
+                        <img src="./index_files/v-bear-3.jpeg" alt="Richard 3">
+                        <img src="./index_files/v-bear-4.jpeg" alt="Richard 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Richard</h3>
+                    <span class="subtitle">Shy Fluffy Bear</span>
+                    <p class="description">Richard is a shy, fluffy bear with a big heart! He stands 10 inch (26 cm) tall. He is 100% handmade with love and care from Montana, US.</p>
+                    <span class="price">$450 + shipping</span>
+                    <ul>
+                        <li>German mohair</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Unique soft stuffing with fine pine wood shaving, glass and metal granulate</li>
+                        <li>Original antique wood shoe buttons for eyes</li>
+                        <li>Original antique key for decoration</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <form action="https://www.paypal.com/ncp/payment/SZQ95D9X9GH4G" method="post" target="_blank">
+                            <input type="submit" value="Buy Now" class="buy-now-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
             <!-- Bernie -->
             <div class="product-block">
                 <div class="product-images">
@@ -451,6 +496,33 @@
                         <form action="https://www.paypal.com/ncp/payment/RUBL9CDE96AFW" method="post" target="_blank">
                             <input type="submit" value="Buy Now" class="buy-now-btn">
                         </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Amalia -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/mel_bear_1.jpeg" alt="Amalia Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/mel_bear_3.jpeg" alt="Amalia 2">
+                        <img src="./index_files/mel_bear_4.jpeg" alt="Amalia 3">
+                        <img src="./index_files/mel_bear_2.jpeg" alt="Amalia 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Amalia</h3>
+                    <span class="subtitle">A Royal Lady Bear</span>
+                    <p class="description">One-of-a-kind bear Amalia stands 12.5 inch (31 cm) tall. Her weight is about 1 lb and 4 oz (0.55 kg). Amalia is a good-natured "royal" lady bear!</p>
+                    <span class="price">$300 + shipping</span>
+                    <ul>
+                        <li>High quality german mohair</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Soft stuffing with fine pine wood shaving, mineral granulate and wood wool</li>
+                        <li>English glass eyes</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <img src="./index_files/thank-you.jpg" alt="Sold Out" style="width: 200px;">
                     </div>
                 </div>
             </div>
@@ -483,6 +555,157 @@
                 </div>
             </div>
 
+            <!-- Steve -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/steve_bear_1.jpeg" alt="Steve Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/steve_bear_2.jpeg" alt="Steve 2">
+                        <img src="./index_files/steve_bear_4.jpeg" alt="Steve 3">
+                        <img src="./index_files/steve_bear_3.jpeg" alt="Steve 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Steve</h3>
+                    <span class="subtitle">Your Soul Buddy</span>
+                    <p class="description">One-of-a-kind bear Steve stands 9 inch (23 cm) tall. His weight is about 1 lb 10 oz (0.48 kg). Steve will definitely become your soul buddy and cheer you up any time!</p>
+                    <span class="price">$350 + shipping</span>
+                    <ul>
+                        <li>German dense mohair and leather for paws</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Fine pine wood shaving, wood wool and steel pellets</li>
+                        <li>Handcrafted clay nose</li>
+                        <li>English glass eyes</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <form action="https://www.paypal.com/ncp/payment/HMRGDUWDTTLPQ" method="post" target="_blank">
+                            <input type="submit" value="Buy Now" class="buy-now-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Yuki -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/green-bear-4.jpeg" alt="Yuki Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/green-bear-3.jpeg" alt="Yuki 2">
+                        <img src="./index_files/green-bear-1.jpeg" alt="Yuki 3">
+                        <img src="./index_files/green-bear-2.jpeg" alt="Yuki 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Yuki</h3>
+                    <span class="subtitle">Happiness & Good Fortune</span>
+                    <p class="description">One-of-a-kind bear Yuki stands 11 inch (28 cm) tall. His weight is about 14.5 oz (0.41 kg). Yuki with name meaning good fortune / happiness is very happy and joyful bear to be a talisman in your wonderful collection!</p>
+                    <span class="price">$300 + shipping</span>
+                    <ul>
+                        <li>German dense mohair and german woolvelt for paws and ears</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Stuffed with Tamarack pine shavings, glass pellets, buckwheat hulls</li>
+                        <li>Original antique key for decoration</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <form action="https://www.paypal.com/ncp/payment/JRSURSMMAZHJY" method="post" target="_blank">
+                            <input type="submit" value="Buy Now" class="buy-now-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Duncan -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/dunkan-bear-4.jpeg" alt="Duncan Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/dunkan-bear-3.jpeg" alt="Duncan 2">
+                        <img src="./index_files/dunkan-bear-2.jpeg" alt="Duncan 3">
+                        <img src="./index_files/dunkan-bear-1.jpeg" alt="Duncan 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Duncan</h3>
+                    <span class="subtitle">Charming & Solid Friend</span>
+                    <p class="description">One-of-a-kind bear Duncan stands 7 inch (18 cm) tall. His weight is about 9.5 oz (0.265 kg). This charming and looking solid Duncan will be only yours exclusive friend!</p>
+                    <span class="price">$175 + shipping</span>
+                    <ul>
+                        <li>German alpaca and gorgeous german dense mohair</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Tamarack pine shavings, aspen wood wool and metal pellets</li>
+                        <li>German glass eyes</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <img src="./index_files/thank-you.jpg" alt="Sold Out" style="width: 200px;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Magnus -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/magnus-bear-1.jpeg" alt="Magnus Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/magnus-bear-2.jpeg" alt="Magnus 2">
+                        <img src="./index_files/magnus-bear-3.jpeg" alt="Magnus 3">
+                        <img src="./index_files/magnus-bear-4.jpeg" alt="Magnus 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Magnus</h3>
+                    <span class="subtitle">Small Bear, Huge Heart</span>
+                    <p class="description">One-of-a-kind bear Magnus stands 7 inch (18 cm) tall. His weight is about 9.6 oz (0.272 kg). Magnus is a small bear with a huge heart to be your soulmate!</p>
+                    <span class="price">$175 + shipping</span>
+                    <ul>
+                        <li>German viscosa and gorgeous german dense mohair</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Tamarack pine shavings, aspen wood wool and metal pellets</li>
+                        <li>German glass eyes</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <form action="https://www.paypal.com/ncp/payment/Q6HCWJEY883M8" method="post" target="_blank">
+                            <input type="submit" value="Buy Now" class="buy-now-btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Victor -->
+            <div class="product-block">
+                <div class="product-images">
+                    <img src="./index_files/victor-bear-1.jpeg" alt="Victor Main" class="main-image">
+                    <div class="thumbnail-row">
+                        <img src="./index_files/victor-bear-2.jpeg" alt="Victor 2">
+                        <img src="./index_files/victor-bear-3.jpeg" alt="Victor 3">
+                        <img src="./index_files/victor-bear-4.jpeg" alt="Victor 4">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Victor</h3>
+                    <span class="subtitle">A Bright Smile Bear</span>
+                    <p class="description">One-of-a-kind bear Victor stands 7 inch (18 cm) tall. His weight is about 9.3 oz (0.26 kg). Victor is a bright smile bear you want to cuddle every time!</p>
+                    <span class="price">$175 + shipping</span>
+                    <ul>
+                        <li>German viscosa and gorgeous german dense mohair</li>
+                        <li>Traditionally 5-way jointed</li>
+                        <li>Tamarack pine shavings, aspen wood wool and metal pellets</li>
+                        <li>German glass eyes</li>
+                    </ul>
+                    <div class="paypal-container">
+                        <img src="./index_files/thank-you.jpg" alt="Sold Out" style="width: 200px;">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Online Show Banner Section -->
+    <section class="online-show-banner">
+        <div class="container">
+            <a href="https://cyberdendesigns.com/brightstarpromotions/site/OnlineShow/2026/FurryFrenzyBearShow.htm">
+                <img src="https://cyberdendesigns.com/brightstarpromotions/site/OnlineShow/images/online-show-skinny-banner_edited-1_003.jpg" alt="Online Teddy Bear Show">
+            </a>
         </div>
     </section>
 
