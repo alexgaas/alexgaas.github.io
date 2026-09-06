@@ -215,8 +215,28 @@
             font-size: 1.25rem; /* Increased font size */
             font-weight: 600;
             color: #1a1a1a;
-            margin-bottom: 30px;
+            margin-bottom: 18px;
             line-height: 1.7;
+        }
+
+        .product-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 25px;
+        }
+
+        .product-tag {
+            display: inline-block;
+            padding: 5px 16px;
+            border: 1.5px solid var(--accent-color);
+            border-radius: 20px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: #2e4313;
+            background: rgba(255, 255, 255, 0.75);
+            letter-spacing: 0.5px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
         }
 
         .product-info .price {
@@ -420,6 +440,10 @@
                 font-weight: normal;
                 color: var(--accent-color);
             }
+            .product-tag {
+                font-size: 0.85rem;
+                padding: 4px 12px;
+            }
             .policies h2 {
                 font-size: 2.2rem;
                 margin-bottom: 40px;
@@ -482,7 +506,12 @@
                 <div class="product-info">
                     <h3>Vincent</h3>
                     <span class="subtitle">Cozy Friend</span>
-                    <p class="description">One-of-a-kind hand-sewn bear Vincent stands 9 inch tall. Weight is about 10 oz. This handsome, woolly-soft bear will keep you cozy in any weather!</p>
+                    <p class="description">One-of-a-kind hand-sewn bear Vincent stands 9 inch tall. Weight is about 10 oz.</p>
+                    <div class="product-tags">
+                        <span class="product-tag">Cozy</span>
+                        <span class="product-tag">Woolly-Soft</span>
+                        <span class="product-tag">Handsome</span>
+                    </div>
                     <ul>
                         <li>Steiff-schulte mohair</li>
                         <li>Traditionally 5-way jointed</li>
@@ -514,8 +543,13 @@
                 </div>
                 <div class="product-info">
                     <h3>Jackson</h3>
-                    <span class="subtitle">Stunnning Friend</span>
-                    <p class="description">One-of-a-kind hand-sewn bear Jackson stands 10 inch tall. His weight is about 1 lb 4 oz. Jackson will be your stunnning confident friend!</p>
+                    <span class="subtitle">Stunning Friend</span>
+                    <p class="description">One-of-a-kind hand-sewn bear Jackson stands 10 inch tall. His weight is about 1 lb 4 oz.</p>
+                    <div class="product-tags">
+                        <span class="product-tag">Muscular</span>
+                        <span class="product-tag">Confident</span>
+                        <span class="product-tag">Strong</span>
+                    </div>
                     <ul>
                         <li>Curly vintage Steiff-schulte viscose</li>
                         <li>5-way jointed</li>
@@ -552,7 +586,12 @@
                 <div class="product-info">
                     <h3>Alice</h3>
                     <span class="subtitle">Lady Friend</span>
-                    <p class="description">One-of-a-kind hand-sewn bear Alice stands 11 inch tall. Her weight is about 14.5 oz. She will be your best loving lady friend!</p>
+                    <p class="description">One-of-a-kind hand-sewn bear Alice stands 11 inch tall. Her weight is about 14.5 oz.</p>
+                    <div class="product-tags">
+                        <span class="product-tag">Loving</span>
+                        <span class="product-tag">Gentle</span>
+                        <span class="product-tag">Sweet</span>
+                    </div>
                     <ul>
                         <li>German dense mohair and german woolvelt for paws and ears</li>
                         <li>Traditionally 5-way jointed</li>
@@ -586,7 +625,11 @@
                 <div class="product-info">
                     <h3>Grant</h3>
                     <span class="subtitle">Sunny Bear</span>
-                    <p class="description">One-of-a-kind hand-sewn bear Grant stands 15 inch tall. His weight is about 2 lb. Grant is sunny, warm hearted bear who is going to be amazing addition to your unique bear collection!</p>
+                    <p class="description">One-of-a-kind hand-sewn bear Grant stands 15 inch tall. His weight is about 2 lb.</p>
+                    <div class="product-tags">
+                        <span class="product-tag">Sunny</span>
+                        <span class="product-tag">Warm</span>
+                    </div>
                     <ul>
                         <li>German dense mohair</li>
                         <li>Traditionally 5-way jointed</li>
@@ -621,8 +664,13 @@
                 </div>
                 <div class="product-info">
                     <h3>Hudson</h3>
-                    <span class="subtitle">Stunnning Friend</span>
-                    <p class="description">One-of-a-kind hand-sewn bear Hadson stands 10 inch tall. His weight is about 1 lb 2 oz. Hudson will be your stunnning confident friend!</p>
+                    <span class="subtitle">Stunning Friend</span>
+                    <p class="description">One-of-a-kind hand-sewn bear Hudson stands 10 inch tall. His weight is about 1 lb 2 oz.</p>
+                    <div class="product-tags">
+                        <span class="product-tag">Confident</span>
+                        <span class="product-tag">Charming</span>
+                        <span class="product-tag">Spirited</span>
+                    </div>
                     <ul>
                         <li>Curly vintage Steiff-schulte viscose</li>
                         <li>5-way jointed</li>
@@ -659,7 +707,12 @@
                 <div class="product-info">
                     <h3>Bernie</h3>
                     <span class="subtitle">Lifetime Best Friend</span>
-                    <p class="description">One-of-a-kind hand-sewn bear Bernie stands 15.5 inch tall. His weight is about 1 lb 12 oz. Bernie is sweet classic teddy bear to be your best friend for a live!</p>
+                    <p class="description">One-of-a-kind hand-sewn bear Bernie stands 15.5 inch tall. His weight is about 1 lb 12 oz.</p>
+                    <div class="product-tags">
+                        <span class="product-tag">Classic</span>
+                        <span class="product-tag">Sweet</span>
+                        <span class="product-tag">Loyal</span>
+                    </div>
                     <ul>
                         <li>German dense mohair</li>
                         <li>Traditionally 5-way jointed</li>
