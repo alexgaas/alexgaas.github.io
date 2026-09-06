@@ -195,15 +195,17 @@
 
         .product-info h3 {
             font-size: 2.8rem;
+            font-weight: 700;
             margin-bottom: 15px;
-            color: var(--text-color);
+            color: #111111;
         }
 
         .product-info .subtitle {
             font-family: var(--serif-font);
             font-size: 1.3rem;
             font-style: italic;
-            color: var(--accent-color);
+            font-weight: 600;
+            color: #2e4313;
             margin-bottom: 30px;
             display: block;
             letter-spacing: 1px;
@@ -211,16 +213,18 @@
 
         .product-info .description {
             font-size: 1.25rem; /* Increased font size */
-            color: #444;
+            font-weight: 600;
+            color: #1a1a1a;
             margin-bottom: 30px;
+            line-height: 1.7;
         }
 
         .product-info .price {
             font-size: 2rem; /* Slightly larger price */
-            color: var(--text-color);
+            color: #111111;
             margin: 0 0 10px 0;
             display: block;
-            font-weight: 300;
+            font-weight: 700;
             font-family: var(--serif-font);
         }
 
@@ -234,14 +238,16 @@
             padding-left: 25px;
             margin-bottom: 12px;
             font-size: 1.15rem; /* Increased font size for list items */
-            color: #555;
+            font-weight: 600;
+            color: #1a1a1a;
         }
 
         .product-info ul li::before {
             content: '—';
             position: absolute;
             left: 0;
-            color: var(--accent-color);
+            color: #2e4313;
+            font-weight: 700;
         }
 
         .paypal-container {
@@ -391,6 +397,28 @@
             }
             .product-info h3 {
                 font-size: 2rem;
+                font-weight: 400;
+                color: var(--text-color);
+            }
+            .product-info .subtitle {
+                font-weight: 400;
+                color: var(--accent-color);
+            }
+            .product-info .description {
+                font-weight: 400;
+                color: #444;
+            }
+            .product-info .price {
+                font-weight: 300;
+                color: var(--text-color);
+            }
+            .product-info ul li {
+                font-weight: 400;
+                color: #555;
+            }
+            .product-info ul li::before {
+                font-weight: normal;
+                color: var(--accent-color);
             }
             .policies h2 {
                 font-size: 2.2rem;
